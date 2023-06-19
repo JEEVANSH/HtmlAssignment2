@@ -1,0 +1,244 @@
+.backGround {
+    background-color: black;
+    width: 99%;
+}
+
+.centerDiv {
+    margin-right: 8em;
+    margin-left: 8em;
+    background-color: #ffffff;
+    height: 35em;
+}
+
+.borderPadding {
+    padding-right: 6em;
+    padding-left: 6em;
+    padding-top: 1em;
+    position: relative;
+}
+
+.headerFont {
+    font-size: 34px;
+    font-family: sans-serif;
+}
+
+.headerFont .fontColor {
+    color: #5A5AE5;
+}
+
+.widthRange {
+    width: 50% !important;
+    display: table-cell;
+}
+
+.paragraphStyles {
+    position: relative;
+    bottom: 13px;
+    font-family: system-ui;
+    color: grey;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.buttonStyle {
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    height: 45px;
+    border-radius: 7px;
+    position: relative;
+    width: 7em;
+    font-family: system-ui;
+    font-weight: 400;
+    bottom: 10px;
+}
+
+.button1 {
+    background-color: #5A5AE5;
+    border: none;
+    color: #ffffff;
+}
+
+.button2 {
+    background-color: #ffffff;
+    /* border: 1px grey !important; */
+    margin-left: 9px;
+}
+
+.informationDiv {
+    padding: 0.7em;
+    background-color: rgba(215, 223, 220, 0.5);
+    height: 8em;
+    width: 9em;
+    position: relative;
+    top: 3em;
+    left: 2em;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.informationSpan {
+    background-color: #ffffff;
+    display: block;
+    height: 3.4em;
+    border-radius: 7px;
+    font-size: 10px;
+    font-family: system-ui;
+    font-weight: 500;
+    color: #4f4d4d;
+    margin-bottom: 12px;
+}
+
+.informationNum {
+    position: relative;
+    bottom: 8px;
+    font-size: 11px;
+    font-weight: 500;
+    font-family: system-ui;
+    left: 3.5em;
+}
+
+.informationMessage {
+    position: relative;
+    top: 4px;
+    left: 11px;
+}
+
+.imageSize {
+    position: relative;
+    height: 15em;
+    width: 14em;
+    border-radius: 6px;
+    left: 13em;
+    bottom: 9.5em;
+}
+
+.bottomColumns {
+    display: table;
+    border: 0.5px solid #e4e1e1;
+    position: relative;
+    width: 100%;
+    bottom: 5em;
+    height: 8em;
+    border-radius: 12px;
+    box-shadow: 15px 15px 15px rgba(157, 156, 156, 0.26);
+}
+
+.column {
+    float: left;
+    width: 33%;
+}
+
+.borderRight {
+    border-right: 0.5px solid #e4e1e1;
+    height: 8em;
+}
+
+.fa {
+    font-size: 11px !important;
+    color: black;
+}
+
+.fa-money-bill-wave:before,
+.fa-user-group:before,
+.fa-book-open:before {
+    content: "\f53a";
+    top: 5px;
+    left: 6.5px;
+    position: relative;
+}
+
+.circleIcon,
+.bottomCircleIcon {
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circleIcon {
+    height: 25px;
+    width: 25px;
+    top: 4px;
+    left: 5px;
+}
+
+.bottomCircleIcon {
+    height: 40px;
+    width: 40px;
+    top: 11px;
+    left: 7em;
+    background-color: rgb(234, 235, 235);
+}
+
+.fa-graduation-cap:before,
+.fa-money-bill-wave:before,
+.greenColor {
+    color: rgb(12, 234, 12) !important;
+}
+
+.moneyBackGround {
+    background-color: rgb(210, 243, 197) !important;
+}
+
+.fa-user-group:before,
+.blueColor {
+    color: #1d1df0;
+}
+
+.userGroupBackGround {
+    background-color: rgb(204, 197, 243) !important;
+}
+
+.fa-store:before,
+.fa-book-open:before,
+.orangeColor {
+    color: orange;
+}
+
+.bookBackGround {
+    background-color: rgb(245, 218, 167);
+}
+
+.fa-solid.fa-user-group:before,
+.fa-store:before,
+.fa-graduation-cap:before {
+    position: relative;
+    left: 8px;
+    font-size: 20px;
+    top: 9px;
+}
+
+.bottomNumbers {
+    position: relative;
+    top: 3em;
+    left: 2.9em;
+    font-family: system-ui;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.bottomText {
+    position: relative;
+    left: 8.7em;
+    top: 4em;
+    font-family: system-ui;
+    font-weight: bold;
+    font-size: 12px;
+    color: #0000006b;
+}
+
+.learnerNumAlignment {
+    left: 2em;
+}
+
+.learnerTextAlignment {
+    left: 9.3em;
+}
+
+.businessAlignment {
+    left: 9em;
+}
+
+.fa-solid.fa-user-group:before {
+    color: rgb(111, 110, 110);
+}
